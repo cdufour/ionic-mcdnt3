@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Lieux essentiels</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <form (ngSubmit)="savePlace(f.value)" #f="ngForm">
+    <ion-item>
+      <ion-label>Titre</ion-label>
+      <ion-input type="text" name="place" [(ngModel)]="place"></ion-input>
+    </ion-item>
+    <button ion-button (click)="savePlace()">Enregistrer</button>
+  </form>
+
+    <!-- <ion-item>
+      <ion-label>Titre</ion-label>
+      <ion-input type="text" [(ngModel)]="place"></ion-input>
+    </ion-item>
+    <button ion-button (click)="savePlace()">Enregistrer</button> -->
+
+
+</ion-content>
