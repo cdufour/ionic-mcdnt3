@@ -1,0 +1,15 @@
+*** Formation Ionic - Projet - consignes ***
+
+Vous avez 2,5 jours pour réaliser,seul ou à plusieurs, une application mobile hybride en utilisant le framework Ionic.
+
+Vous pouvez, au choix :
+- développer une application personnelle, fruit de votre imagination
+- développer l'application suggérée par le prof: VraiFauxApp
+- reproduire en totalité ou en partie une application existante,autre que celle suggérée par le prof.
+
+Dans tous les cas de figure, l'application devra :
+- comporter plusieurs vues(pages)
+- disposer d'une navigation
+- utiliser au moins une API native
+
+Sauf cas de force majeur, le recours au prof est strictement INTERDIT

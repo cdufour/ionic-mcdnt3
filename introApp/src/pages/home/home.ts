@@ -19,8 +19,6 @@ export class HomePage {
   // https://blog.ionicframework.com/navigating-lifecycle-events/
   // Page LifeCycle events
   ionViewDidLoad() {
-    //console.log("ionViewDidLoad");
-    //this.places = this.placeProvider.getPlaces();
     this.placeProvider.getPlaces().then(res => {
       if (!res) res = []; // si res vaut null on remplace par tableau vide
       this.placeProvider.setPlaces(res);
@@ -28,7 +26,6 @@ export class HomePage {
   }
 
   ionViewDidEnter() {
-    //console.log("ionViewDidEnter");
     this.placeProvider.getPlaces().then(res => {
       this.places = res;
     });
