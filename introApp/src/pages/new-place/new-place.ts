@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController } from 'ionic-angular';
+import { PlaceProvider } from '../../providers/place/place';
 
 @IonicPage()
 @Component({
@@ -9,10 +10,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class NewPlacePage {
   place: string = '';
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
+  constructor(
+    public navCtrl: NavController,
+    private placeProvider: PlaceProvider
+  ) {}
 
   savePlace(f) {
-    console.log(f);
+    console.log(this.placeProvider.addPlace(f.value.place));
   }
 }
