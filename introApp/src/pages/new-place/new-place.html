@@ -15,4 +15,8 @@
     <button ion-button type="submit" [disabled]=!f.valid>Enregistrer</button>
   </form>
 
+  <button ion-button (click)="locate()">Localisation</button>
+  <p>Latitude: {{coords.lat}}</p>
+  <p>Longitude: {{coords.long}}</p>
+
 </ion-content>

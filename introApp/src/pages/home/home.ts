@@ -22,6 +22,7 @@ export class HomePage {
     //console.log("ionViewDidLoad");
     //this.places = this.placeProvider.getPlaces();
     this.placeProvider.getPlaces().then(res => {
+      if (!res) res = []; // si res vaut null on remplace par tableau vide
       this.placeProvider.setPlaces(res);
     });
   }
