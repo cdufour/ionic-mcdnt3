@@ -18,7 +18,7 @@ Paramètres initiaux:
   - nombre de vies: 3
   - nombre de jokers: 2
 
-Options initiales (modifiables dans la page Optins)
+Options initiales (modifiables dans la page Options)
   - niveau de difficulté: facile (autres choix: intermédiaire, difficile, etc...)
   - thème (catégorie): n'importe (autres choix: histoire, sport, musique, etc...)
   - effets: aucun (autres choix: sons, sons et vibrations)
