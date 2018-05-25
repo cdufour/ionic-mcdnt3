@@ -32,7 +32,7 @@ export class HomePage {
   }
 
   testBtn() {
-    this.message = "J'ai appuyé sur le bouton";
+    this.message = "J'ai pressé le bouton";
   }
 
   goToNewPlace() {

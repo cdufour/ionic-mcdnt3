@@ -1,0 +1,42 @@
+*** Tester l'application sur l'appareil ***
+Installer l'application IonicDev sur l'appareil
+https://ionicframework.com/docs/pro/devapp/
+Avantages:
+- Rapidité. Les changements faits en cours de dev sont immédiatement visibles, sans compilation, sur l'appareil
+- Aucun SDK, aucune dépendance à installer
+
+
+
+*** Déployer l'application sur l'appareil ***
+https://ionicframework.com/docs/intro/deploying/
+
+
+** Plateforme Android ***
+
+- Installer Android Studio
+https://developer.android.com/studio/
+
+- Installer Java JDK
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+- Ajouter des variables d'environnement:
+C:\Users\<USER>\AppData\Local\Android\Sdk\platform-tools;
+C:\Users\<USER>\AppData\Local\Android\Sdk\tools;
+C:\Program Files\Java\jdk1.8.0_171\bin
+
+- Installer Gradle
+https://gradle.org/install/
+
+- Activer les options développeur sur l'appareil:
+http://www.frandroid.com/comment-faire/tutoriaux/184906_comment-acceder-au-mode-developpeur-sur-android
+
+- Brancher l'appareil
+
+- Dans le dossier de l'application Ionic, exécuter:
+ionic cordova run android
+
+N.B: si la compilation (build process) échoue en raison d'un problème de "Licence SDK",
+Accepter les licences par la commande:
+sdkmanager --licenses
+Sur windows, on trouve le sdkmanager dans le dossier:
+C:\Users\<USER>\AppData\Local\Android\Sdk\tools\bin
