@@ -1,0 +1,10 @@
+Terminer le projet (gameplay + options) avant lundi 28 mai minuit
+
+Me donner accès à votre dossier "src" (via github idéalement)
+
+Mention A: Globalement fonctionnel et rendu à temps
+Mention B: Globalement fonctionnel et rendu avec retard
+Mention C: Incomplet et/ou nombreuses anomalies
+Mention D: Non rendu
+
+Mail Christophe: opusidea@gmail.com
